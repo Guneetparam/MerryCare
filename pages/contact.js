@@ -50,7 +50,7 @@ const Contact = () => {
                       Stay tuned with our Social Media Platform
                     </p>
                     <p className="social-icon">
-                      <a href="https://www.facebook.com/people/Merry-Care-Services/100083051844990/" target={"_blank"}>
+                      <a href="https://www.facebook.com/people/Merry-Care-Services/100083051844990/" target={"_blank"} rel="noreferrer">
                         <i className="fab fa-facebook" />
                       </a>
                       <a href="#">
