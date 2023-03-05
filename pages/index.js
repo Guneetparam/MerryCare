@@ -19,9 +19,9 @@ const Index = () => {
                     Merry Care Disability Services
                   </h1>
                   <p className="wow fadeInLeft" data-wow-delay="0.4s">
-                  Our focus is to empower people with disability 
-                  through quality care and personal centered approach 
-                  to live independently.
+                    Our focus is to empower people with disability through
+                    quality care and personal centered approach to live
+                    independently.
                   </p>
                   <Link href="/contact">
                     <a
@@ -48,13 +48,16 @@ const Index = () => {
             <div className="row justify-content-center">
               <div className="col-md-10">
                 <div className="section-heading heading-white text-center mb-40">
-                  <span className="tagline large-font">Why Merry Care Services</span>
+                  <span className="tagline large-font">
+                    Why Merry Care Services
+                  </span>
                   <h2 className="title small-font">
-                   At Merry Care Disability Services, we always see your capabilities
-                   and we love to support you to develop the skills for living independently.
-                   We provide a supportive environment to enhance your capabilities , support career, 
-                   day to day tasks, mental and physical health and lot more. 
-                                     </h2>
+                    At Merry Care Disability Services, we always see your
+                    capabilities and we love to support you to develop the
+                    skills for living independently. We provide a supportive
+                    environment to enhance your capabilities , support career,
+                    day to day tasks, mental and physical health and lot more.
+                  </h2>
                 </div>
               </div>
             </div>
@@ -68,6 +71,10 @@ const Index = () => {
                     <Link href="/service">
                       <a>Our Mission</a>
                     </Link>
+                    <p className="font-14">
+                      Develop the skills and capabilities that gain independence
+                      and contributing member of society{" "}
+                    </p>
                   </h4>
                   <div className="image">
                     <img src="assets/img/img-title-box/01.jpg" alt="Image" />
@@ -83,6 +90,7 @@ const Index = () => {
                     <Link href="/service">
                       <a>Our Focus</a>
                     </Link>
+                    <p className="font-14">We pride ourselves on offering a superior service to participants via our individual centered approach. We empower participants with skills</p>
                   </h4>
                   <div className="image">
                     <img src="assets/img/img-title-box/02.jpg" alt="Image" />
@@ -98,6 +106,7 @@ const Index = () => {
                     <Link href="/service">
                       <a>Registered NDIS Provider</a>
                     </Link>
+                    <p className="font-14">We are a registered NDIS provider and enquire us for NDIS support coordination's and plan management services.</p>
                   </h4>
                   <div className="image">
                     <img src="assets/img/img-title-box/03.jpg" alt="Image" />
@@ -162,20 +171,24 @@ const Index = () => {
               <div className="col-xl-5 col-lg-6 col-md-8">
                 <div className="about-text">
                   <div className="section-heading mb-35">
-                    <span className="tagline">About Merry Care Disability Services</span>
+                    <span className="tagline">
+                      About Merry Care Disability Services
+                    </span>
                     <h2 className="title">
-                    Creating Opportunities for Growth and Independence
+                      Creating Opportunities for Growth and Independence
                     </h2>
                     <p>10 Years+ Of Experience in Disability Services</p>
                   </div>
                   <p>
-                  Merry Care Disability Services is a support services Provider
-                   for people with disabilities in Glen Waverley, Victoria, Australia.
-                   We offer services such as individual support, respite care, group 
-                   activities, and community access to help individuals with disabilities 
-                   live as independently as possible and participate in their communities. 
-                   Our goal is to help individuals with disabilities achieve their goals and
-                   aspirations, and to live fulfilling lives.
+                    Merry Care Disability Services is a support services
+                    Provider for people with disabilities in Glen Waverley,
+                    Victoria, Australia. We offer services such as individual
+                    support, respite care, group activities, and community
+                    access to help individuals with disabilities live as
+                    independently as possible and participate in their
+                    communities. Our goal is to help individuals with
+                    disabilities achieve their goals and aspirations, and to
+                    live fulfilling lives.
                   </p>
                   <Link href="/about">
                     <a className="template-btn mt-40">
@@ -196,16 +209,16 @@ const Index = () => {
                 <div className="section-heading text-center mb-40">
                   <span className="tagline large-font">About NDIS</span>
                   <h2 className="title small-font">
-                  The National Disability Insurance Scheme (NDIS) is a 
-                  new way of assisting people with a disability to get the 
-                  support they need, achieve their human rights, and participate
-                  in the social and economic life of the nation. The NDIS’ central 
-                  objective is for people with disability to achieve their life goals.
+                    The National Disability Insurance Scheme (NDIS) is a new way
+                    of assisting people with a disability to get the support
+                    they need, achieve their human rights, and participate in
+                    the social and economic life of the nation. The NDIS’
+                    central objective is for people with disability to achieve
+                    their life goals.
                   </h2>
                 </div>
               </div>
             </div>
-          
           </div>
         </section>
         {/*====== Service Section End ======*/}
@@ -213,18 +226,16 @@ const Index = () => {
         <section className="big-tagline">
           <div className="container-fluid">
             <h2 className="tagline">
-              We Cannot Stop the Wave,
-              But We Can Learn To Swim
-              (Jon Kabat)
+              We Cannot Stop the Wave, But We Can Learn To Swim (Jon Kabat)
             </h2>
           </div>
         </section>
         {/*====== Big Tagline End ======*/}
         {/*====== Doctor Section Start ======*/}
-        
+
         {/*====== Doctor Section End ======*/}
         {/*====== Appointment Section Start ======*/}
-       
+
         {/*====== Appointment Section End ======*/}
         {/*====== Testimonials Section Start ======*/}
         <section className="testimonial-section bg-color-grey section-have-half-bg">
@@ -244,7 +255,7 @@ const Index = () => {
                   >
                     <div className="single-testimonial-slider">
                       <div className="testimonial-inner">
-                       {/*  <div className="avatar">
+                        {/*  <div className="avatar">
                           <img
                             src="assets/img/testimonial/01.png"
                             alt="Avatar"
@@ -252,15 +263,16 @@ const Index = () => {
                         </div>  */}
                         <div className="content-wrap">
                           <p className="testimonial-desc">
-                          I know Simar for Over 3 years as a carer for my son.
-                            He is modest and very reliable carer with lots of skills
-                            and qualifications.He always says 'slowly', but surely he 
-                            is always moving forward to improve his life(work, family,
-                            and hobbies etc).
-                            While he looks after my son like his own nephew, he also has 
-                            an insight to find my son's potentials.
-                            His wife, Sukhan is also a lovely lady and I can't stop chatting
-                            with her for a while if I have a chance to see her.
+                            I know Simar for Over 3 years as a carer for my son.
+                            He is modest and very reliable carer with lots of
+                            skills and qualifications.He always says 'slowly',
+                            but surely he is always moving forward to improve
+                            his life(work, family, and hobbies etc). While he
+                            looks after my son like his own nephew, he also has
+                            an insight to find my son's potentials. His wife,
+                            Sukhan is also a lovely lady and I can't stop
+                            chatting with her for a while if I have a chance to
+                            see her.
                           </p>
                           <div className="author-info">
                             <h5 className="name">Setsuko Nakazawa</h5>
@@ -291,7 +303,7 @@ const Index = () => {
                         </div>
                       </div>
                     </div>
-                 {/*    <div className="single-testimonial-slider">
+                    {/*    <div className="single-testimonial-slider">
                       <div className="testimonial-inner">
                         <div className="avatar">
                           <img
@@ -349,7 +361,7 @@ const Index = () => {
         </section>
         {/*====== Testimonials Section End ======*/}
         {/*====== Counter Section Start ======*/}
-       {/* <section className="counter-section section-gap">
+        {/* <section className="counter-section section-gap">
           <div className="container">
             <div className="counter-inner">
               <div className="row justify-content-between">
@@ -398,13 +410,13 @@ const Index = () => {
         </section> /*}
         {/*====== Counter Section End ======*/}
         {/*====== Help Section Start ======*/}
-       
+
         {/*====== Help Section End ======*/}
         {/*====== Partners Section Start ======*/}
-       
+
         {/*====== Partners Section End ======*/}
         {/*====== Latest Blog Start ======*/}
-      
+
         {/*====== Latest Blog End ======*/}
       </>
     </Layouts>
