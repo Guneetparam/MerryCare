@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 import Link from "next/link";
 import React, { useState } from "react";
 import { Accordion } from "react-bootstrap";
@@ -22,7 +23,7 @@ const About = () => {
                     >
                       <img
                         src="assets/img/circle-image-gallery/01.jpg"
-                        alt=""
+                        alt="Gallery"
                       />
                     </div>
                     <div
@@ -68,11 +69,26 @@ const About = () => {
                   <p>10+ Years Of Experience in Disability Services</p>
                 </div>
                 <p>
-                Merry Care Disability Services is a dedicated organization that focuses on empowering people with disabilities to live independently through quality care and personalized support. Their main objective is to provide a superior service to their participants with an individual-centered approach.
-The team at Merry Care Disability Services takes pride in empowering their participants with the necessary skills and capabilities to achieve their life goals. We believe in offering a holistic approach to care, ensuring that their participants' emotional, social, and physical needs are met.
-Our mission is to enable our participants to live their lives to the fullest by providing them with personalized care that is tailored to their unique needs. Merry Care Disability Services' dedication to quality care and personalized support is what sets us apart from other disability service providers.
-Overall, Merry Care Disability Services is an organization that is committed to empowering people with disabilities, enabling them to live life to the fullest and achieve their life goals. With our individual-centered approach, We provide personalized care that is tailored to meet the unique needs of each participant.
-
+                  Merry Care Disability Services is a dedicated organization
+                  that focuses on empowering people with disabilities to live
+                  independently through quality care and personalized support.
+                  Their main objective is to provide a superior service to their
+                  participants with an individual-centered approach. The team at
+                  Merry Care Disability Services takes pride in empowering their
+                  participants with the necessary skills and capabilities to
+                  achieve their life goals. We believe in offering a holistic
+                  approach to care, ensuring that their participants' emotional,
+                  social, and physical needs are met. Our mission is to enable
+                  our participants to live their lives to the fullest by
+                  providing them with personalized care that is tailored to
+                  their unique needs. Merry Care Disability Services' dedication
+                  to quality care and personalized support is what sets us apart
+                  from other disability service providers. Overall, Merry Care
+                  Disability Services is an organization that is committed to
+                  empowering people with disabilities, enabling them to live
+                  life to the fullest and achieve their life goals. With our
+                  individual-centered approach, We provide personalized care
+                  that is tailored to meet the unique needs of each participant.
                 </p>
                 {/* <Link href="/about">
                   <a className="template-btn mt-40">

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FooterDefault = ({ noNewsletters }) => {
@@ -7,7 +8,6 @@ const FooterDefault = ({ noNewsletters }) => {
         noNewsletters ? "" : "have-cta-boxes-two"
       }`}
     >
-      
       <div className="footer-inner bg-color-primary">
         <div className="container">
           <div className="footer-widgets">
@@ -15,10 +15,14 @@ const FooterDefault = ({ noNewsletters }) => {
               <div className="col-lg-6 col-md-8">
                 <div className="widget text-widget">
                   <div className="footer-logo">
-                    <img src="assets/img/logo-transparent.png" alt="Merrycare" />
+                    <img
+                      src="assets/img/logo-transparent.png"
+                      alt="Merrycare"
+                    />
                   </div>
                   <p>
-                  Our focus is to empower people with disability through quality care.
+                    Our focus is to empower people with disability through
+                    quality care.
                   </p>
                   <ul className="contact-list">
                     <li>
@@ -56,27 +60,25 @@ const FooterDefault = ({ noNewsletters }) => {
                             <a href="#">Programs</a>
                           </li>
                           <li>
-                            <a href="/about">About us</a>
+                            <Link href="/about">About us</Link>
                           </li>
                           <li>
-                            <a href="/contact">Contact us</a>
+                            <Link href="/contact">Contact us</Link>
                           </li>
                           <li>
-                            <a href="/">Home</a>
+                            <Link href="/">Home</Link>
                           </li>
-                          
                         </ul>
                       </div>
                     </div>
                   </div>
-                  
                 </div>
               </div>
               <div className="col-lg-3 col-md-10">
                 <div className="widget newsletters-widget">
                   <h4 className="widget-title">Newsletters</h4>
                   <p>
-                   Please enter your email below <br /> to get our newsletters
+                    Please enter your email below <br /> to get our newsletters
                   </p>
                   <form
                     onSubmit={(e) => e.preventDefault()}

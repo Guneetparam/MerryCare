@@ -93,12 +93,12 @@ const Header1 = ({ headerTopbar, position }) => {
                   <Link href="about">About</Link>
                 </li>
                 <li>
-                  <a href="/service">
+                  <Link href="/service">
                     Services
                     {/*  <span className="dd-trigger">
                       <i className="far fa-plus" />
                     </span> */}
-                  </a>
+                  </Link>
                   {/* <ul className="sub-menu">
                     <li>
                       <Link href="/service">
