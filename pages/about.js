@@ -62,24 +62,23 @@ const About = () => {
             <div className="col-xl-5 col-lg-6 col-md-8">
               <div className="about-text">
                 <div className="section-heading mb-35">
-                  <span className="tagline">About Seeva</span>
-                  <h2 className="title">All-in-One Worksite Health Solution</h2>
+                  <span className="tagline">About MerryCare</span>
+                  <h2 className="title">Committed to Excellence in Care</h2>
 
-                  <p>25 Years Of Experience in Medical Services</p>
+                  <p>10+ Years Of Experience in Disability Services</p>
                 </div>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium totam rem aperieaque ipsa
-                  quae ab illo inventore veritatis et quasi architecto beatae
-                  vitae dicta sunt explicabo. Nemo enim ipsam voluptatemsy quia
-                  voluptas sit aspernatur aut odit aut fugit quia conquntur
-                  magni dolores eos qui ratione voluptatem
+                Merry Care Disability Services is a dedicated organization that focuses on empowering people with disabilities to live independently through quality care and personalized support. Their main objective is to provide a superior service to their participants with an individual-centered approach.
+The team at Merry Care Disability Services takes pride in empowering their participants with the necessary skills and capabilities to achieve their life goals. We believe in offering a holistic approach to care, ensuring that their participants' emotional, social, and physical needs are met.
+Our mission is to enable our participants to live their lives to the fullest by providing them with personalized care that is tailored to their unique needs. Merry Care Disability Services' dedication to quality care and personalized support is what sets us apart from other disability service providers.
+Overall, Merry Care Disability Services is an organization that is committed to empowering people with disabilities, enabling them to live life to the fullest and achieve their life goals. With our individual-centered approach, We provide personalized care that is tailored to meet the unique needs of each participant.
+
                 </p>
-                <Link href="/about">
+                {/* <Link href="/about">
                   <a className="template-btn mt-40">
                     Learn More <i className="far fa-plus"></i>
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

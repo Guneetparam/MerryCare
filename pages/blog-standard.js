@@ -15,7 +15,7 @@ const BlogStandard = () => {
   }, [active]);
   return (
     <Layouts>
-      <PageBanner title={"Blog Standard"} bgnone />
+      <PageBanner title={"Services"} bgnone />
       <section className="blog-area section-gap">
         <div className="container">
           <div className="row">
