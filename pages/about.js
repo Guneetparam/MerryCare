@@ -111,7 +111,7 @@ const About = () => {
                 <div className="section-heading heading-white text-center mb-40">
                   <span className="tagline">Why Choose Our Services</span>
                   <h2 className="title">
-                    Breakthrough in Comprehensive, Flexible Care Delivery Models
+                   Empowering abilities, not disabilities.
                   </h2>
                 </div>
               </div>
