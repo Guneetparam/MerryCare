@@ -94,10 +94,9 @@ const BlogDetails = () => {
                     </p>
                     <blockquote>
                       <p>
-                        Smashing Podcast Episode Pauloag Conversion Optimization
-                        Inspired Design
+                      Know your limits, but never stop trying to break them.
                       </p>
-                      <cite>Rasalina Willamson</cite>
+                      <cite>Kyle Maynard</cite>
                     </blockquote>
                   </div>
                 </div>
