@@ -1,4 +1,4 @@
-/* eslint-disable */ 
+/* eslint-disable */
 import Link from "next/link";
 import React, { useState } from "react";
 import { Accordion } from "react-bootstrap";
@@ -111,25 +111,25 @@ const About = () => {
                 <div className="section-heading heading-white text-center mb-40">
                   <span className="tagline">Why Choose Our Services</span>
                   <h2 className="title">
-                    Breakthrough in Comprehensive, Flexible Care Delivery Models
+                    Empowering abilities, not disabilities.
                   </h2>
                 </div>
               </div>
             </div>
             <div className="row justify-content-center">
-              
+
             </div>
           </div>
         </section>
         {/* <!--====== Why Choose Section End ======--> */}
 
         {/* <!--====== Doctor Section Start ======--> */}
-       
+
         {/* <!--====== Doctor Section End ======--> */}
       </div>
 
       {/* <!--====== FAQ Section Start ======--> */}
-      
+
     </Layouts>
   );
 };
