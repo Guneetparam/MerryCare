@@ -291,14 +291,19 @@ const Index = () => {
                         </div> */}
                         <div className="content-wrap">
                           <p className="testimonial-desc">
-                            Sed ut perspiciatis unde omnis natusy error
-                            voluptatem accusantium doloreue laudan totam rem
-                            aperiam eaquip quae abillo inventore veritatis quasi
-                            architecto beatae vitae dicta sunt explicabo
+                          I have been receiving services from Merry Care for over a year,
+                          and I can confidently say that the staff is exceptional. They are 
+                          unfailingly kind, patient, and reliable. Sukhan, the manager, goes 
+                          above and beyond to ensure that my daughter receives uninterrupted 
+                          care and is always comfortable and happy. What's more, she is always 
+                          ready to step in as backup staff whenever needed, which is truly extraordinary. 
+                          Additionally, she is an attentive listener and takes the time to understand the 
+                          unique needs of our family. I am grateful for her expertise and unwavering support 
+                          in helping my daughter reach her full potential.
                           </p>
                           <div className="author-info">
-                            <h5 className="name">Mark E. Kaminsky</h5>
-                            <span className="title">Web Designer</span>
+                            <h5 className="name">Anna Christina</h5>
+                            <span className="title">19/02/2023</span>
                           </div>
                         </div>
                       </div>
