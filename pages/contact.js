@@ -8,7 +8,7 @@ const Contact = () => {
   const [success, setSuccess] = React.useState(false);
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const onSubmit = data => {
-    emailjs.send('service_pmz9dnj','template_7wh38c7', data, 'IrJmvgjQnt2-Cf8gG')
+    emailjs.send('service_0eg6e6w','template_yobu3tq', data, 'lCmxdCxEVbQ5rB-Ox9Mji')
     .then((response) => {
        console.log('SUCCESS!', response.status, response.text);
        setSuccess(true);
