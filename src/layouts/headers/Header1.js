@@ -143,7 +143,7 @@ const Header1 = ({ headerTopbar, position }) => {
                   </ul>
                 </li>
                 <li>
-                  <Link href="/shop">
+                  <Link href="#">
                     <a>
                       Shop
                       <span className="dd-trigger">
