@@ -1,8 +1,24 @@
 import React from "react";
+import { useForm } from "react-hook-form";
+import emailjs from '@emailjs/browser';
 import PageBanner from "../src/components/PageBanner";
 import Layouts from "../src/layouts/Layouts";
 
 const Contact = () => {
+  const [success, setSuccess] = React.useState(false);
+  const { register, handleSubmit, watch, formState: { errors } } = useForm();
+  const onSubmit = data => {
+    emailjs.send('service_pmz9dnj','template_7wh38c7', data, 'IrJmvgjQnt2-Cf8gG')
+    .then((response) => {
+       console.log('SUCCESS!', response.status, response.text);
+       setSuccess(true);
+    }, (err) => {
+       console.log('FAILED...', err);
+    });
+  };
+  
+ 
+
   return (
     <Layouts footer="default">
       <PageBanner title={"Contact Us"} />
@@ -141,8 +157,8 @@ const Contact = () => {
                   <h2 className="title">Leave a Message</h2>
                 </div>
                 <form
-                  onSubmit={(e) => e.preventDefault()}
-                  action="#"
+                 onSubmit={handleSubmit(onSubmit)}
+                  
                   className="contact-form"
                 >
                   <div className="row">
@@ -153,6 +169,8 @@ const Contact = () => {
                           type="text"
                           placeholder="Michael M. Smith"
                           id="name"
+                          required
+                          {...register("name")}
                         />
                       </div>
                     </div>
@@ -163,26 +181,31 @@ const Contact = () => {
                           type="email"
                           placeholder="support@gmail.com"
                           id="email"
+                          required
+                          {...register("email")}
                         />
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="input-field">
-                        <label htmlFor="number">Phone Number</label>
+                        <label htmlFor="phone">Phone Number</label>
                         <input
                           type="text"
                           placeholder="0433 333 333"
-                          id="number"
+                          id="phone"
+                          {...register("phone")}
                         />
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="input-field">
-                        <label htmlFor="website">Best time to Contact</label>
+                        <label htmlFor="time">Best time to Contact</label>
                         <input
-                          type="url"
+                          type="text"
                           placeholder="Time"
-                          id="website"
+                          id="time"
+                          required
+                          {...register("time")}
                         />
                       </div>
                     </div>
@@ -193,18 +216,24 @@ const Contact = () => {
                           id="message"
                           placeholder="Write Message...."
                           defaultValue={""}
+                          required
+                          {...register("message")}
                         />
                       </div>
                     </div>
                     <div className="col-12">
                       <div className="text-center">
-                        <button className="template-btn">
+                        <button className="template-btn" type="submit">
                           Send Us Message <i className="far fa-plus" />
                         </button>
                       </div>
                     </div>
                   </div>
                 </form>
+                {success && (
+                 <div className="success-msg">Congratulations! Your Query been set to team</div>
+            )}
+              
               </div>
             </div>
           </div>
