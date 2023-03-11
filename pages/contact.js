@@ -46,7 +46,7 @@ const Contact = () => {
                     <ul>
                       <li>
                         <span>Phone Number</span>
-                        <a href="tel:+012020200">0405020440</a>
+                        <a href="tel:+012020200">040 50 20 440</a>
                       </li>
                       <li>
                         <span>Email</span>
@@ -54,7 +54,7 @@ const Contact = () => {
                       </li>
                       <li>
                         <span>After Hours</span>
-                        <a href="tel:+12345678">0433393697</a>
+                        <a href="tel:+12345678">0433 393 697</a>
                       </li>
                     </ul>
                   </div>

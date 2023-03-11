@@ -20,7 +20,7 @@ const ServiceTwo = () => {
                     <a>Outdoor Adventure</a>
                   </Link>
                 </h4>
-                <p>This program involves organized trips to local parks, nature reserves, or hiking trails. Participants could learn about different plants and animals, as well as explore new environments and participate in physical activities.</p>
+                <p>This program involves organised trips to local parks, nature reserves, or hiking trails. Participants could learn about different plants and animals, as well as explore new environments and participate in physical activities.</p>
 
                 <div className="box-link-wrap">
                   <span className="link-icon">
@@ -68,7 +68,7 @@ const ServiceTwo = () => {
                     <a>Workshops in Art and Craft</a>
                   </Link>
                 </h4>
-                <p>Participants can participate in a variety of creative activities such as painting, sketching, drawing, sculpting etc</p>
+                <p>Participants can participate in a variety of creative activities such as painting, sketching, drawing, sculpting, etc</p>
 
                 <div className="box-link-wrap">
                   <span className="link-icon">
@@ -140,7 +140,7 @@ const ServiceTwo = () => {
                     <a>Excursion program/Social outing program</a>
                   </Link>
                 </h4>
-                <p>In this program we organize trips to local attractions, such as museums, parks, Zoo and cultural events. The goal would be to provide individuals with disabilities the opportunity to experience new things and engage with their community. This program could bring individuals with disabilities together for social events, such as picnics, movie nights, and sporting events. The focus would be on creating a supportive community where individuals can have fun, make new friends, and build relationships.</p>
+                <p>In this program we organise trips to local attractions, such as museums, parks, Zoo and cultural events. The goal would be to provide individuals with disabilities the opportunity to experience new things and engage with their community. This program could bring individuals with disabilities together for social events, such as picnics, movie nights, and sporting events. The focus would be on creating a supportive community where individuals can have fun, make new friends, and build relationships.</p>
 
                 <div className="box-link-wrap">
                   <span className="link-icon">
@@ -188,7 +188,7 @@ const ServiceTwo = () => {
                     <a>Academic Learning</a>
                   </Link>
                 </h4>
-                <p>This is a growing trend where parents choose to home school their child with special needs. We offer tuition-based programs that can be used to supplement a home schooling or School program.</p>
+                <p>This is a growing trend where parents choose to home schooling their child with special needs. We offer tuition-based programs that can be used to supplement a home schooling or School program.</p>
 
                 <div className="box-link-wrap">
                   <span className="link-icon">

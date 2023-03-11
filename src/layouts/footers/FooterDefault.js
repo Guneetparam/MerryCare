@@ -40,7 +40,7 @@ const FooterDefault = ({ noNewsletters }) => {
                     <li>
                       <a href="tel:01267899">
                         <i className="far fa-phone" />
-                        +012 (345) 678 99
+                        040 50 20 440
                       </a>
                     </li>
                   </ul>

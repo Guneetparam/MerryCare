@@ -55,7 +55,7 @@ const Index = () => {
                     At Merry Care Disability Services, we always see your
                     capabilities and we love to support you to develop the
                     skills for living independently. We provide a supportive
-                    environment to enhance your capabilities , support career,
+                    environment to enhance your capabilities, support career,
                     day to day tasks, mental and physical health and lot more.
                   </h2>
                 </div>
@@ -73,7 +73,7 @@ const Index = () => {
                     </Link>
                     <p className="font-14">
                       Develop the skills and capabilities that gain independence
-                      and contributing member of society{" "}
+                      and help become a contributing member of society{" "}
                     </p>
                   </h4>
                   <div className="image">
@@ -106,7 +106,7 @@ const Index = () => {
                     <Link href="/service">
                       <a>Registered NDIS Provider</a>
                     </Link>
-                    <p className="font-14">We are a registered NDIS provider and enquire us for NDIS support coordination's and plan management services.</p>
+                    <p className="font-14">We are a registered NDIS provider. Enquire with us for NDIS support services.</p>
                   </h4>
                   <div className="image">
                     <img src="assets/img/img-title-box/03.jpg" alt="Image" />
