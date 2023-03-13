@@ -15,9 +15,9 @@ const SlidePanel = ({ sidebarTrigger, setSidebarTrigger }) => {
         <div className="about-us">
           <h5 className="canvas-widget-title">About Us</h5>
           <p>
-          Merry Care Disability Services is a dedicated organization 
+          Merry Care Disability Services is a dedicated organisation 
           that focuses on empowering people with disabilities to live 
-          independently through quality care and personalized support.
+          independently through quality care and personalised support.
           </p>
         </div>
         <div className="contact-us">
@@ -34,11 +34,11 @@ const SlidePanel = ({ sidebarTrigger, setSidebarTrigger }) => {
  */}            </li>
             <li>
               <i className="far fa-phone" />
-              <a href="tel:+01234567899">0405020440</a>
+              <a href="tel:+01234567899">040 50 20 440</a>
               <br />
-              <a href="tel:+8563214">0433393697</a>
+              <a href="tel:+8563214">0433 393 697</a>
               <br />
-              <a href="tel:+8563214">0430383697</a>
+              <a href="tel:+8563214">043 038 3697</a>
 
             </li>
           </ul>
