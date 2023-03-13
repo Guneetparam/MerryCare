@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect } from "react";
+import { Analytics } from '@vercel/analytics/react';
 import ScrollTop from "../components/ScrollTop";
 import { animation, niceSelect, progressBar, stickyNav } from "../utils";
 import Footer from "./footers/Footer";
@@ -26,6 +27,7 @@ const Layouts = ({
         <HeadersLayouts headerTopbar={headerTopbar} position={position} />
       )}
       {children}
+      <Analytics />
       {!noFooter && <Footer footer={footer} noNewsletters={noNewsletters} />}
       <ScrollTop />
     </Fragment>
