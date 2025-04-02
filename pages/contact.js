@@ -35,7 +35,7 @@ const Contact = () => {
                       <i className="fal fa-map-marker-alt" /> Address
                     </h3>
                     <p>
-                      22 Chivers Avenue, <br />
+                      21 Nottingham Street, <br />
                       Glen Waverley,3150
                     </p>
                   </div>
