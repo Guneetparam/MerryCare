@@ -50,7 +50,7 @@ const Contact = () => {
                       </li>
                       <li>
                         <span>Email</span>
-                        <a href="mailto:support@gmail.com">merrycareservices@gmail.com</a>
+                        <a href="mailto:support@gmail.com">info@merrycare.com.au</a>
                       </li>
                       <li>
                         <span>After Hours</span>
