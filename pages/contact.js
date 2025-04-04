@@ -46,11 +46,11 @@ const Contact = () => {
                     <ul>
                       <li>
                         <span>Phone Number</span>
-                        <a href="tel:+012020200">040 50 20 440</a>
+                        <a href="tel:+012020200">0430383697</a>
                       </li>
                       <li>
                         <span>Email</span>
-                        <a href="mailto:support@gmail.com">info@merrycare.com.au</a>
+                        <a href="mailto:support@gmail.com">merrycareservices@gmail.com</a>
                       </li>
                       <li>
                         <span>After Hours</span>
