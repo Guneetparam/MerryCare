@@ -28,19 +28,19 @@ const FooterDefault = ({ noNewsletters }) => {
                     <li>
                       <a href="https://goo.gl/maps/inpkL6wUZqMR3opX7">
                         <i className="far fa-map-marker-alt" />
-                        22 Chivers Ave, Glen Waverley VIC-3150
+                        21 Nottingham Street, Glen Waverley VIC-3150
                       </a>
                     </li>
                     <li>
                       <a href="mailto:merrycareservices@gmail.com">
                         <i className="far fa-envelope" />
-                        merrycareservices@gmail.com
+                        sukhan@merrycare.com.au
                       </a>
                     </li>
                     <li>
                       <a href="tel:01267899">
                         <i className="far fa-phone" />
-                        040 50 20 440
+                        0430383697
                       </a>
                     </li>
                   </ul>

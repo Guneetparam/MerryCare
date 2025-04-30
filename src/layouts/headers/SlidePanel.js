@@ -29,12 +29,12 @@ const SlidePanel = ({ sidebarTrigger, setSidebarTrigger }) => {
             </li>
             <li>
               <i className="far fa-envelope-open" />
-              <a href="mailto:support@qolle.com">merrycareservices@gmail.com</a>
+              <a href="mailto:support@qolle.com">sukhan@merrycare.com.au</a>
 {/*               <a href="mailto:info@qolle.com">info@seeva.com</a>
  */}            </li>
             <li>
               <i className="far fa-phone" />
-              <a href="tel:+01234567899">040 50 20 440</a>
+              <a href="tel:+01234567899">0430 38 36 97</a>
               <br />
               <a href="tel:+8563214">0433 393 697</a>
               <br />
